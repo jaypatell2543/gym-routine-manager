@@ -6,18 +6,27 @@
 </head>
 <body>
   <nav>
-    <a href="/">Home</a>
-    <a href="/routine">Routine</a>
-    <a href="/about">About</a>
+    <div class="nav-container">
+      <div class="logo"> Gym Routine Manager</div>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/routine">Routine</a>
+        <a href="/about">About</a>
+      </div>
+    </div>
   </nav>
 
-  <h2>My Workout Routine</h2>
+  <div class="container">
+    <h2>My Workout Routine</h2>
 
-  <input id="name" placeholder="Exercise name">
-  <input id="muscle" placeholder="Muscle group">
-  <button onclick="addExercise()">Add</button>
+    <div class="form-group">
+      <input id="name" placeholder="Exercise name">
+      <input id="muscle" placeholder="Muscle group">
+      <button onclick="addExercise()" class="primary-btn">Add Exercise</button>
+    </div>
 
-  <ul id="exerciseList"></ul>
+    <ul id="exerciseList" class="exercise-list"></ul>
+  </div>
 
   <script src="/js/main.js"></script>
 </body>
