@@ -1,0 +1,14 @@
+{
+  "name": "gym-routine-manager",
+  "version": "1.0.0",
+  "description": "CPS630 A1 - Gym Routine Manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Group Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
