@@ -13,7 +13,15 @@ const dataPath = path.join(__dirname, "data", "exercises.json");
 
 // ---------- Helper Functions ----------
 function readExercises() {
-  return JSON.parse(fs.readFileSync(dataPath));
+  try {
+    const data = fs.readFileSync(dataPath, "utf8");
+    if (!data) return [];
+    return JSON.parse(data);
+  } catch (err) {
+    console.error("Failed to read exercises.json. Resetting file.");
+    fs.writeFileSync(dataPath, "[]");
+    return [];
+  }
 }
 
 function writeExercises(data) {

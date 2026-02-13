@@ -1,0 +1,127 @@
+[
+  {
+    "id": 8,
+    "name": "Deadlift",
+    "muscleGroup": "Back"
+  },
+  {
+    "id": 9,
+    "name": "Squats",
+    "muscleGroup": "Legs"
+  },
+  {
+    "id": 10,
+    "name": "Leg Press",
+    "muscleGroup": "Legs"
+  },
+  {
+    "id": 11,
+    "name": "Lunges",
+    "muscleGroup": "Legs"
+  },
+  {
+    "id": 12,
+    "name": "Leg Curl",
+    "muscleGroup": "Legs"
+  },
+  {
+    "id": 13,
+    "name": "Leg Extension",
+    "muscleGroup": "Legs"
+  },
+  {
+    "id": 14,
+    "name": "Calf Raises",
+    "muscleGroup": "Legs"
+  },
+  {
+    "id": 15,
+    "name": "Shoulder Press",
+    "muscleGroup": "Shoulders"
+  },
+  {
+    "id": 16,
+    "name": "Lateral Raises",
+    "muscleGroup": "Shoulders"
+  },
+  {
+    "id": 17,
+    "name": "Front Raises",
+    "muscleGroup": "Shoulders"
+  },
+  {
+    "id": 18,
+    "name": "Rear Delt Fly",
+    "muscleGroup": "Shoulders"
+  },
+  {
+    "id": 19,
+    "name": "Bicep Curls",
+    "muscleGroup": "Arms"
+  },
+  {
+    "id": 20,
+    "name": "Hammer Curls",
+    "muscleGroup": "Arms"
+  },
+  {
+    "id": 21,
+    "name": "Tricep Dips",
+    "muscleGroup": "Arms"
+  },
+  {
+    "id": 22,
+    "name": "Tricep Pushdown",
+    "muscleGroup": "Arms"
+  },
+  {
+    "id": 23,
+    "name": "Plank",
+    "muscleGroup": "Core"
+  },
+  {
+    "id": 24,
+    "name": "Crunches",
+    "muscleGroup": "Core"
+  },
+  {
+    "id": 25,
+    "name": "Hanging Leg Raises",
+    "muscleGroup": "Core"
+  },
+  {
+    "id": 26,
+    "name": "Russian Twists",
+    "muscleGroup": "Core"
+  },
+  {
+    "id": 27,
+    "name": "Burpees",
+    "muscleGroup": "Full Body"
+  },
+  {
+    "id": 28,
+    "name": "Mountain Climbers",
+    "muscleGroup": "Full Body"
+  },
+  {
+    "id": 29,
+    "name": "Kettlebell Swings",
+    "muscleGroup": "Full Body"
+  },
+  {
+    "id": 30,
+    "name": "Jump Rope",
+    "muscleGroup": "Cardio"
+  },
+  {
+    "id": 1770952818988,
+    "name": "Test1",
+    "muscleGroup": "Test1"
+  },
+  {
+    "id": 1770952839961,
+    "name": "Test2",
+    "muscleGroup": "Test2"
+  }
+]
