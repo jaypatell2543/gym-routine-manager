@@ -56,7 +56,7 @@ All responses are returned in JSON format with appropriate HTTP status codes.
 
 ## Deployment
 
-USe the following link to deploy: Https://gym-routine-manager-s37e.onrender.com
+Use the following link to deploy: https://gym-routine-manager-s37e.onrender.com
 
 The application is deployed online using **Render**, which supports Node.js and Express applications. The hosted version demonstrates the same functionality as the local version.
 
@@ -66,16 +66,10 @@ Note: On the free tier, the server may take a few seconds to wake up after inact
 
 ## Reflection
 
-For this assignment, we created a multi-page web application called Gym Routine Manager using Node.js and Express. The goal of the app is to allow users to manage a workout routine by adding, viewing, and deleting exercises. 
+This project gave us a practical understanding of how a full-stack web application works from start to finish. Instead of only learning concepts in lectures, we were able to apply them by building a working application and seeing how each component connects together.
 
-The exercise data is stored in a JSON file, which acts as a simple database and keeps the data persistent.
+One of the biggest things we learned was how the frontend and backend communicate. Implementing fetch requests and handling different HTTP methods in Express helped us better understand how data moves between the client and the server. It became much clearer how requests are sent, processed, and returned with proper status codes.
 
-The application includes three pages: Home, Routine, and About. The Routine page communicates with the backend using fetch requests. 
+Working as a team was also an important part of this assignment. We had to divide responsibilities, make sure our code worked together, and help each other debug issues. At times, we faced challenges with routing, folder structure, and updating the JSON file correctly. By testing carefully and reviewing each other’s code, we were able to fix these problems.
 
-We implemented REST-style endpoints using GET to retrieve exercises, POST to add new exercises, and DELETE to remove them. The server returns appropriate status codes to show whether each request was successful or invalid.
-
-This project meets the assignment requirements because it uses Express for routing, serves static files (HTML, CSS, JavaScript), implements multiple HTTP methods, follows REST principles, and stores data in a JSON file instead of a database. It is structured as a multi-page application rather than a single-page app.
-
-One challenge we faced was understanding how the frontend and backend communicate. It took some time to understand how fetch sends data and how the server updates the JSON file correctly. We also had to fix some issues with folder structure and routing.
-
-Overall, this assignment helped me better understand how full-stack web applications work and how REST APIs function.
+This project improved not only our technical skills but also our collaboration and problem-solving abilities. If we were to extend this application in the future, we would consider adding stronger input validation, improving the UI design, and integrating a real database. Overall, this assignment helped us build confidence in developing and structuring web applications using Express and REST principles.
